@@ -1,0 +1,151 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+
+  body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto; 
+  }
+  
+  header {
+    background: #092e5a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: auto;
+  }
+
+  header { display: flex; justify-content: space-between; align-items: center; }
+  
+  header h1{
+    margin-left: 10%;
+    text-decoration: none;
+    
+}
+
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  
+  nav ul li a:hover {
+    color: #c3c3c3;
+  }
+  
+  main {
+    margin-top: 40px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  section#home {
+    text-align: center;
+  }
+  
+  section h1,
+  section h2 {
+    /* color: #f33f3f; */
+    color: #092e5a;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  article {
+    margin-bottom: 10px;
+  }
+  
+  article h3 {
+    color: #333;
+  }
+  
+  form#contactForm {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  form#contactForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form#contactForm input,
+  form#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  form#contactForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form#contactForm button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  }
+  
